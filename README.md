@@ -1,6 +1,10 @@
 # Boots
 
-Bootstrap Sass custom build
+Bootstrap Sass custom build - see [example page](eliot-akira.github.io/boots)
+
+## Purpose
+
+A common way people use Bootstrap is by including the whole library, then adding more CSS on top to customize it. It is more efficient to include only the modules used, adjust style variables, and compile a site-specific custom build.
 
 ## Use
 
