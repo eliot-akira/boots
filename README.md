@@ -18,7 +18,7 @@ Include JS - requires [jQuery](http://jquery.com/)
 
 ## Build
 
-**Requires [Node.js](https://nodejs.org/) and its included package manager, *npm* **
+#### Requires [Node.js](https://nodejs.org/) and its included package manager, *npm*
 
 The following commands are run from the root of the project folder.
 
@@ -27,6 +27,8 @@ The following commands are run from the root of the project folder.
 ```sh
 npm install
 ```
+
+This will install the Gulp task manager and supporting modules.
 
 *Build and minify assets*
 
