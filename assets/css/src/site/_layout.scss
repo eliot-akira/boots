@@ -1,0 +1,49 @@
+/*
+
+Fixed sidebar example
+
+#site-container {
+  @extend .row;
+}
+
+.scroll-it {
+  max-height: 100%;
+  overflow-y: auto;
+  position: fixed;
+}
+
+$sidebar-width: 280px;
+
+#sidebar {
+  @extend .pad-sides;
+  @extend .hidden-sm;
+  @extend .hidden-xs;
+}
+
+#main {
+  @extend .pad-sides;
+  @extend .pad-bottom;
+}
+
+@media (min-width: $screen-md-min) {
+  #sidebar {
+    @extend .scroll-it;
+    width: $sidebar-width;
+  }
+  #main {
+    @extend .scroll-it;
+    width: 100%;
+  }
+  #page-content {
+    margin-left: $sidebar-width;
+  }
+}
+
+.h3 {
+  @extend h3;
+  @extend .margin-right-half;
+  display: inline-block;
+}
+
+
+ */

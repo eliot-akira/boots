@@ -1,0 +1,81 @@
+
+$site-font: $lato !default;
+$site-font-size: 18px !default;
+$site-font-size-middle: 16px !default;
+$site-font-size-small: 14px !default;
+$site-font-size-smallest: 12px !default;
+
+$site-font-weight-normal: 300 !default;
+$site-font-weight-bold: 400 !default;
+
+
+// ---------- Use Lato font ----------
+
+body, p,
+button,
+input,
+select,
+textarea {
+	font-family: $site-font;
+	font-size: $site-font-size;
+}
+aside {
+	font-size: $site-font-size-middle;
+}
+label, .radio label, .checkbox label {
+	font-size: $site-font-size-small;
+}
+pre, code {
+	font-size: $site-font-size-middle;
+}
+
+// ------------- Default font weight: thin -------------
+
+body, p,
+button,
+.btn,
+input,
+select,
+textarea,
+.thin-text {
+	font-weight: $site-font-weight-normal;
+}
+
+// ------------- Thin bold -------------
+
+b, strong, .bold, table thead tr th, label, .radio label, .checkbox label,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: $site-font-weight-bold;
+}
+
+.italic {
+  font-style: italic !important;
+}
+
+// ------------- Header sizes -------------
+
+h1 { font-size: $site-font-size * 1.6; }
+h2 { font-size: $site-font-size * 1.4; }
+h3 { font-size: $site-font-size * 1.2; }
+h4 { font-size: $site-font-size * 1; }
+h5 { font-size: $site-font-size * 0.8; }
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child { margin-top: 0; }
+
+
+// ------------- Paragraph -------------
+
+h4, p {
+	margin: 1em 0;
+}
+
+// ------------- Code -------------
+
+pre[class*="language-"] {
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+}
