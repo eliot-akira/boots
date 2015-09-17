@@ -32,9 +32,7 @@ The following commands are run from the root of the project folder.
 npm install
 ```
 
-This will install the Gulp task manager and supporting modules.
-
----
+This installs the Gulp task manager and supporting modules.
 
 **Build and minify assets**
 
@@ -42,15 +40,11 @@ This will install the Gulp task manager and supporting modules.
 npm run build
 ```
 
----
-
 **Build with source maps**
 
 ```sh
 npm run dev
 ```
-
----
 
 **Watch for file changes and automatically build with source maps**
 
@@ -58,15 +52,11 @@ npm run dev
 npm run watch
 ```
 
----
-
 **Lint JS files**
 
 ```sh
 npm run lint
 ```
-
----
 
 **Remove compiled assets**
 
