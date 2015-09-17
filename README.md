@@ -1,6 +1,6 @@
 # Boots
 
-Bootstrap Sass custom build - see [example page](eliot-akira.github.io/boots)
+Bootstrap Sass custom build - see [example page](http://eliot-akira.github.io/boots)
 
 ## Purpose
 
@@ -22,7 +22,7 @@ Include JS - requires [jQuery](http://jquery.com/)
 
 ## Build
 
-#### Requires [Node.js](https://nodejs.org/) and its included package manager, *npm*
+##### Requires [Node.js](https://nodejs.org/) and its included package manager, *npm*
 
 The following commands are run from the root of the project folder.
 
@@ -34,11 +34,15 @@ npm install
 
 This will install the Gulp task manager and supporting modules.
 
+---
+
 *Build and minify assets*
 
 ```sh
 npm run build
 ```
+
+---
 
 *Build with source maps*
 
@@ -46,17 +50,23 @@ npm run build
 npm run dev
 ```
 
+---
+
 *Watch for file changes and automatically build with source maps*
 
 ```sh
 npm run watch
 ```
 
+---
+
 *Lint JS files*
 
 ```sh
 npm run lint
 ```
+
+---
 
 *Remove compiled assets*
 
