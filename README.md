@@ -26,7 +26,7 @@ Include JS - requires [jQuery](http://jquery.com/)
 
 The following commands are run from the root of the project folder.
 
-*Install dependencies*
+**Install dependencies**
 
 ```sh
 npm install
@@ -36,7 +36,7 @@ This will install the Gulp task manager and supporting modules.
 
 ---
 
-*Build and minify assets*
+**Build and minify assets**
 
 ```sh
 npm run build
@@ -44,7 +44,7 @@ npm run build
 
 ---
 
-*Build with source maps*
+**Build with source maps**
 
 ```sh
 npm run dev
@@ -52,7 +52,7 @@ npm run dev
 
 ---
 
-*Watch for file changes and automatically build with source maps*
+**Watch for file changes and automatically build with source maps**
 
 ```sh
 npm run watch
@@ -60,7 +60,7 @@ npm run watch
 
 ---
 
-*Lint JS files*
+**Lint JS files**
 
 ```sh
 npm run lint
@@ -68,7 +68,7 @@ npm run lint
 
 ---
 
-*Remove compiled assets*
+**Remove compiled assets**
 
 ```sh
 npm run clean
