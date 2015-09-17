@@ -4,6 +4,8 @@ Bootstrap Sass custom build - see [example page](http://eliot-akira.github.io/bo
 
 ## Purpose
 
+This is a starter setup based on [Bootstrap](http://getbootstrap.com/) and the [Gulp](gulpjs.com) task manager.
+
 - Include only the modules used
 
 - Add new components as necessary, and adjust style via variables
