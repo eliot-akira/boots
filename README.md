@@ -63,3 +63,9 @@ npm run lint
 ```sh
 npm run clean
 ```
+
+## Source maps
+
+Source maps allow mapping the compiled CSS to its source Sass files when using a browser's inspector. This makes development easier by showing which file corresponds to an element's style.
+
+To see how it works, run a build with source maps and open *index.html* in a browser. Each element's style should show its source file and line number.
