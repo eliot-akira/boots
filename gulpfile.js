@@ -1,22 +1,14 @@
 
-// Define configuration here
 var config = {
   assets: {
-    name: 'app',
+    name: 'boots',
     src: 'src',
-    dest: 'public',
-    js: {
-      lint: true
-      //babel : true,
-      //extension: '.es6'
-      //coffee : true
-    },
-    css: {
-      sass : true,
-    }
+    dest: 'build',
+    js: true,
+    css: true
   },
   browserSync: {
-    server: './public'
+    server: './'
   }
 };
 
