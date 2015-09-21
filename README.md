@@ -58,6 +58,12 @@ npm run dev
 npm run watch
 ```
 
+**Start static file server with watch and browser sync**
+
+```sh
+npm run serve
+```
+
 **Lint JS files**
 
 ```sh
