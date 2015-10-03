@@ -3,7 +3,7 @@ var config = {
   assets: {
     name: 'boots',
     src: 'src',
-    dest: 'build',
+    dest: 'dist',
     js: true,
     css: true
   },
