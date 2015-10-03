@@ -1,7 +1,10 @@
 {
   "name": "boots",
   "version": "0.0.1",
-  "main": "dist/boots.js",
+  "main": [
+    "dist/boots.css",
+    "dist/boots.js"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",

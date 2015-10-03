@@ -3,9 +3,12 @@ var config = {
   assets: {
     name: 'boots',
     src: 'src',
-    dest: 'dist',
-    js: true,
-    css: true
+    js: {
+      dest: 'dist'
+    },
+    css: {
+      dest: 'dist'
+    }
   },
   browserSync: {
     server: './'
