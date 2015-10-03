@@ -1,0 +1,13 @@
+{
+  "name": "boots",
+  "version": "0.0.1",
+  "main": "dist/boots.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.md",
+    "index.html",
+    "gulp*",
+    "package.json"
+  ]
+}
